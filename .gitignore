@@ -1,0 +1,134 @@
+# Autodesk
+/Autodesk/
+
+# broot
+/broot/*
+## Files to be monitored
+!/broot/verbs.hjson
+!/broot/conf.hjson
+
+# btop
+/btop/
+
+# coc
+/coc/
+
+# fish
+/fish/
+# Autodesk
+/Autodesk/
+
+# broot
+/broot/*
+!/broot/verbs.hjson
+
+# btop
+/btop/
+
+# coc
+/coc/
+
+# fish
+/fish/
+
+# gh
+/gh/
+
+# gh-copilot
+/gh-copilot/
+
+# github-copilot
+/github-copilot/
+
+# gollama
+/gollama/
+
+# gptme
+/gptme/
+
+# helix
+/helix/
+## Files to be monitored
+!/helix/config.toml
+
+# iterm2
+/iterm2/
+
+# katana
+/katana/
+
+# lf
+/lf/
+
+# newsboat
+/newsboat/*
+## Files to be monitored
+!/newsboat/config
+!/newsboat/urls
+
+# nnn
+/nnn/
+
+# nvim
+/nvim/*/*
+/nvim/.DS_Store
+## Files to be monitored
+!/nvim/init.lua
+!/nvim/lua/autocmd.lua
+!/nvim/lua/plugins.lua
+!/nvim/lua/lazy_nvim.lua
+!/nvim/lua/base.lua
+
+# starship
+/starship/*
+## Files to be monitored
+!/starship/starship.toml
+
+# uv
+/uv/
+
+# wezterm
+/wezterm/*
+## Files to be monitored
+!/wezterm/wezterm.lua
+nvim/lazy-lock.json
+
+
+# Basic gitignore setting
+
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Production
+/build
+/dist
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
