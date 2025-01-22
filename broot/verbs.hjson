@@ -190,7 +190,7 @@ verbs: [
     {
         name: open
         invocation: open
-        external: "open {any}"
+        external: "open {file}"
         leave_broot: false
     }
 ]
