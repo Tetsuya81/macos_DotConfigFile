@@ -1,0 +1,4 @@
+theme = "kanagawa"
+
+[editor]
+clipboard-provider = "pasteboard"

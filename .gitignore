@@ -1,9 +1,11 @@
+# Dotfiles and Application Configurations
+
 # Autodesk
 /Autodesk/
 
 # broot
 /broot/*
-## Files to be monitored
+# Files to monitor
 !/broot/verbs.hjson
 !/broot/conf.hjson
 
@@ -15,29 +17,10 @@
 
 # fish
 /fish/
-# Autodesk
-/Autodesk/
 
-# broot
-/broot/*
-!/broot/verbs.hjson
-
-# btop
-/btop/
-
-# coc
-/coc/
-
-# fish
-/fish/
-
-# gh
+# gh and GitHub related
 /gh/
-
-# gh-copilot
 /gh-copilot/
-
-# github-copilot
 /github-copilot/
 
 # gollama
@@ -47,8 +30,8 @@
 /gptme/
 
 # helix
-/helix/
-## Files to be monitored
+/helix/*
+# Files to monitor
 !/helix/config.toml
 
 # iterm2
@@ -62,7 +45,7 @@
 
 # newsboat
 /newsboat/*
-## Files to be monitored
+# Files to monitor
 !/newsboat/config
 !/newsboat/urls
 
@@ -72,16 +55,17 @@
 # nvim
 /nvim/*/*
 /nvim/.DS_Store
-## Files to be monitored
+# Files to monitor
 !/nvim/init.lua
 !/nvim/lua/autocmd.lua
 !/nvim/lua/plugins.lua
 !/nvim/lua/lazy_nvim.lua
 !/nvim/lua/base.lua
+nvim/lazy-lock.json
 
 # starship
 /starship/*
-## Files to be monitored
+# Files to monitor
 !/starship/starship.toml
 
 # uv
@@ -89,12 +73,11 @@
 
 # wezterm
 /wezterm/*
-## Files to be monitored
+# Files to monitor
 !/wezterm/wezterm.lua
-nvim/lazy-lock.json
 
 
-# Basic gitignore setting
+# Common Project Settings
 
 # Dependencies
 /node_modules
@@ -104,7 +87,7 @@ nvim/lazy-lock.json
 # Testing
 /coverage
 
-# Production
+# Build
 /build
 /dist
 
@@ -126,7 +109,7 @@ yarn-error.log*
 *.swp
 *.swo
 
-# OS generated
+# OS Generated Files
 .DS_Store
 .DS_Store?
 ._*
